@@ -1,0 +1,116 @@
+.skills-one{
+    width:200px;
+    height:200px;
+    background:rgba(239, 235, 28,0.5);
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    position:relative;
+}
+.skills-one.two{
+    background:rgba(61, 158, 137,0.5);
+}
+.skills-one.three{
+    background:rgba(56, 80, 144,0.5);
+}
+.skills-one.four{
+    background:rgba(165, 156, 203,0.5);
+}
+.skills-one.five{
+    background:rgba(242, 155, 135,0.5);
+}
+.skills-one.six{
+    background:rgba(243, 152, 57,0.5);
+}
+
+.skills-one .skills-a,.skills-one .skills-b{
+    width:100px;
+    height:200px;
+    background:#EFB917;
+}
+.skills-one .skills-a{
+    float:left;
+    transform: rotate(-10deg);
+    transform-origin: right;
+}
+.skills-one.two .skills-a{
+    transform: rotate(-15deg);
+}
+.skills-one.three .skills-a{
+    transform: rotate(-20deg);
+}
+.skills-one.four .skills-a{
+    transform: rotate(-25deg);
+}
+.skills-one.five .skills-a{
+    transform: rotate(-45deg);
+}
+.skills-one.six .skills-a{
+    transform: rotate(-60deg);
+}
+.skills-one .skills-b{
+    float:right;
+}
+.skills-one.two .skills-a,.skills-one.two .skills-b{
+    background:#3D9E89;
+}
+.skills-one.three .skills-a,.skills-one.three .skills-b{
+    background:#385090;
+}
+.skills-one.four .skills-a,.skills-one.four .skills-b{
+    background:#A59CCB;
+}
+.skills-one.five .skills-a,.skills-one.five .skills-b{
+    background: #F29B87;
+}
+.skills-one.six .skills-a,.skills-one.six .skills-b{
+    background:#F39839;
+}
+
+.skills-one .skills-c{
+    position:absolute;
+    width:188px;
+    height:188px;
+    left:6px;
+    top:6px;
+    background: #fff;
+    border-radius: 50%;
+}
+.skills-one .skills-c span{
+    display: block;
+    font-size: 20px;
+    color:#EFB917;
+    line-height:186px;
+    text-align: center;
+}
+.skills-one.two .skills-c span{
+    color:#3D9E89;
+}
+.skills-one.three .skills-c span{
+    color:#385090;
+}
+.skills-one.four .skills-c span{
+    color:#A59CCB;
+}
+.skills-one.five .skills-c span{
+    color:#F29B87;
+}
+.skills-one.six .skills-c span{
+    color:#F39839;
+}
+#three .row h2{
+    text-align: center;
+    font-family: '黑体';
+}
+
+#five a.github{
+    transition: opacity 0.6s ease;
+    text-decoration: none;
+}
+#five a img{
+    width:30px;
+    height:30px;
+}
+#five a:hover{
+    opacity: 0.7;
+}
